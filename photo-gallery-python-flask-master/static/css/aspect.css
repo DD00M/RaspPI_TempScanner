@@ -1,0 +1,346 @@
+body{
+    color:coral;
+    display:flex;
+    flex-wrap: nowrap;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    background-color: #82bfcf;
+    /*background-image: url("../images/dooloo.png");*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    /*background-position: 800px 30px;
+    background-color: aqua;
+    */
+}
+.abc
+{
+    position:absolute;
+    top:370px;
+    left:500px;
+    width:100%;
+    height:100%;
+}
+.icon img
+{
+    width:100%;
+    height:100%;
+    filter: invert(48%) sepia(34%) saturate(4122%) hue-rotate(191deg) brightness(99%) contrast(87%);
+}
+.menu{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100px;
+    padding:10px 90px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.6);
+    /* background-color: red; */
+    border-bottom: 1px solid #fff;
+    color:black;
+    border-radius:25px;
+}
+.menu ul{
+    list-style:none;
+    position: absolute;
+    right:5%;
+    top: 50%;
+    transform: translateY(-50%);
+    float:right;
+    /* background-color: green; */
+    /* margin-top: -100px; */
+    margin:0;
+    padding:0;
+    display:flex;   
+}
+.menu ul li a{
+    line-height: 80px;
+    color:#fff;
+    top:10px;
+    /* position: absolute; */
+    padding: 12px 30px;
+    /* background-color: blue; */
+    text-decoration:none;
+    font-size:20px;
+    font-weight:bold;
+    text-transform: uppercase;
+}
+.menu ul li a:hover{
+    background: darkblue;
+    border-radius: 6px;
+}
+
+.Logo{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    margin-left: 50px;
+    text-transform:uppercase;
+    color:white;
+    font-weight: bold;
+}
+
+.Img_Div{
+    position: absolute;
+    left:0;
+    top:50%;
+    transform: translateY(-50%);
+    width:7%;
+    height:80px;
+    /* background-color: yellow; */
+}
+
+.Img_Div img{
+    width:100%;
+    height:100%;
+    filter: invert(48%) sepia(34%) saturate(4122%) hue-rotate(191deg) brightness(99%) contrast(87%);
+}
+
+body .Footer{
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    text-align:center;
+}
+
+body .Chenar1{
+    position:fixed;
+    top:180px;
+    left:50%;
+    transform:translateX(-50%);
+    padding:10px 90px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.6);
+    border-bottom: 1px solid #fff;
+    color:black;
+    border-radius: 25px;
+    border: 2px solid rgba(0,0,0,0.6);
+    padding: 50px;
+    width:50%;
+    height:480px;
+}
+
+body .Chenar2{
+    position:fixed;
+    top:180px;
+    left:50%;
+    transform:translateX(-50%);
+    padding:10px 90px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.6);
+    border-bottom: 1px solid #fff;
+    color:black;
+    border-radius: 25px;
+    border: 2px solid rgba(0,0,0,0.6);
+    padding: 50px;
+    width:50%;
+    height:400px;
+}
+
+.lista_site{
+    position:absolute;
+    top:150px;
+    left:50%;
+    transform:translateX(-50%);
+    width:45%;
+    height:100px;
+    padding:10px 90px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.6);
+    /* background-color: red; */
+    border-bottom: 1px solid #fff;
+    color:black;
+    border-radius: 25px;
+}
+
+.lista_site ul{
+    list-style-type: none;
+    position: absolute;
+    right:5%;
+    top: 40%;
+    transform: translateY(-50%);
+    float:right;
+    font-size:10px;
+    /* background-color: green; */
+    /* margin-top: -100px; */
+    margin:0;
+    padding:0;
+    display:flex;   
+}
+.lista_site ul li a{
+    line-height: 80px;
+    color:#fff;
+    top:10px;
+    /* position: absolute; */
+    padding: 12px 30px;
+    /* background-color: blue; */
+    text-decoration:none;
+    font-size:10px;
+    font-weight:bold;
+    text-transform: uppercase;
+}
+.lista_site ul li a:hover{
+    background: darkblue;
+    border-radius: 6px;
+}
+.like1
+{
+    position:absolute;
+    width: 35px;
+    height: 35px;
+    color:#348feb;
+    top: 60px;
+    left: 50px;
+    background-color: green;
+    max-width: 65%;
+    max-height: 650%;
+    text-align: center;
+}
+.like1:hover
+{
+    background-color: darkgreen;
+    text-align: center;
+}
+.dislike1
+{
+    position:absolute;
+    width: 35px;
+    height: 35px;
+    color:#348feb;
+    background-color: red ;
+    top: 60px;
+    left: 120px;
+}
+.dislike1:hover
+{
+    background-color: darkred;
+}
+.like2
+{
+    position:absolute;
+    width: 35px;
+    height: 35px;
+    color:#348feb;
+    top: 60px;
+    left: 290px;
+    background-color: green;
+    text-align: center;
+}
+.like2:hover
+{
+    background-color: darkgreen;
+    text-align: center;
+}
+.dislike2
+{
+    position:absolute;
+    width: 35px;
+    height: 35px;
+    background-color: red ;
+    color:#348feb;
+    top: 60px;
+    left: 360px
+}
+.dislike2:hover
+{
+    background-color: rgba(139, 0, 0);
+}
+.like3
+{
+    position:absolute;
+    width: 35px;
+    height: 35px;
+    color:#348feb;
+    background-color: green;
+    top: 60px;
+    left: 500px;
+    text-align: center;
+}
+.like3:hover
+{
+    background-color:darkgreen;
+    text-align: center;
+}
+.dislike3
+{
+    position:absolute;
+    width: 35px;
+    height: 35px;
+    color:#348feb;
+    background-color: red ;
+    top: 60px;
+    left: 570px
+}
+.logout
+{
+    position:absolute;
+    width: 200px;
+    height: 50px;
+    color:white;
+    background-color: red ;
+    top: 650px;
+    left: 1300px;
+    border-radius: 25px;
+}
+.logout:hover
+{
+    background-color:darkred;
+    text-align: center;
+    border-radius: 25px;
+}
+.dislike3:hover
+{
+    background-color: rgba(139, 0, 0);
+}
+.temps
+{
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    width: 50%;
+    height:100px;
+    padding:10px 90px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.6);
+    /* background-color: red; */
+    border-bottom: 1px solid #fff;
+    color:white;
+    border-radius: 25px;
+    text-align:center;
+    top:270px;
+    justify-content: center;
+    font-size: 10px;
+}
+
+/*
+.temps:hover
+{
+top:400px;
+left:320px;
+justify-content: center;
+font-size:20px;
+font-weight:bold;
+color: darkblue;
+border: 3px solid blueviolet;
+border-radius: 30px;
+}
+*/
+/*
+body>div.Chenar
+{
+    position:fixed;
+    top:300px;
+    left:50%;
+    transform:translateX(-50%);
+    width:40%;
+    height:300px;
+    padding:10px 90px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.6);
+    border-bottom: 1px solid #fff;
+    color:black
+}
+*/
